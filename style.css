@@ -1,0 +1,226 @@
+html,
+body{
+  width: 100%;
+   height: 100vh;
+   overflow: hidden;
+}
+#gradient
+{
+height: 100%;
+background-image: url("images/libraryphoto.jpg");
+}
+
+#loginFont
+{
+  font-family: "Times New Roman", Times, serif;
+}
+span {
+color:red
+}
+h2
+{
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr
+{
+border:0;
+border-bottom:1px solid;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login
+{
+margin: auto;
+width:450px;
+border-radius:10px;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+background-color:#fff;
+}
+#gradient
+{
+height: 100%;
+background-image: url("images/libraryphoto.jpg") fixed;
+}
+input[type=text],input[type=password]
+{
+width:96.5%;
+padding:10px;
+margin-top:8px;
+border:2px solid #bbb;
+padding-left:5px;
+font-size:20px;
+background-color:#eee;
+}
+input[type=submit]
+{
+width:100%;
+background-color:#2f90ff;
+color:#fff;
+border:2px solid #fff;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+}
+#profile
+{
+padding:50px;
+border:2px solid grey;
+font-size:20px;
+background-color: #fff;
+}
+#logout
+{
+float:right;
+padding:5px;
+}
+#showLogs
+{
+float:left;
+padding:5px;
+}
+#addAdmin
+{
+float:left;
+padding:5px;
+}
+#changePassword
+{
+float:left;
+padding:5px;
+}
+#exportData
+{
+float:left;
+padding:5px;
+}
+#viewGraph
+{
+  float:left;
+  padding:5px;
+}
+#addUser
+{
+float:left;
+padding:5px;
+}
+#addCourse
+{
+float:left;
+padding:5px;
+}
+#importExcel
+{
+float:left;
+padding:5px;
+}
+#deleteData
+{
+float:left;
+padding:5px;
+}
+#visualizeData{
+  float:left;
+padding:5px;
+}
+a
+{
+text-decoration:none;
+color:#6495ed
+}
+i
+{
+color:#6495ed
+}
+div#dailyreportanalysis
+{
+  padding:5px;
+  float:left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+
+.choice-container {
+  display: flex; 
+  flex-direction: row;
+  width: 25vw;
+}
+.camera-select, choice-select {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2vw;
+}
+
+.graph-choice {
+  width: 10vw;
+  text-align: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+  width: 8vw;
+}
+
+.small-chart-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5vh 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#mainMenu {
+	margin:10px;
+	width:200px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#6699FF;
+}
+
+#mainMenu a:hover {
+	background-color:#6699FF;
+	color:#fff;
+}
+
+#dropdownGraphs{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#dashboard{
+  position:center;
+}
+p{
+  font-family: Roboto;
+}
+
